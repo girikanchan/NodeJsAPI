@@ -1,0 +1,23 @@
+1. Create API's through which we can add customers and their details. The details to be included are:
+● Customer Name
+● Email
+● Mobile Number
+● City
+● Customer ID - Should be Auto generated (Unique ID)
+2. Create an API for Purchase Order. The details to be included are:
+● Product Name
+● Quantity
+● Pricing
+● MRP
+● Purchase order ID- Auto Generated (Unique ID)
+● Customer ID - From Customer table above
+Note - Pricing can't be greater than MRP
+3. Create an API for Shipping Details. The details to be included are
+● Address
+● City
+● Pincode
+● Purchase order ID - From purchase order table above
+● Customer ID from the customer details table above
+4. Create an API to get customers which have shipment with city filter
+Eg: The customer details should be fetched based on the city selected. Like if I select city as Delhi, then the shipment details of all the customers in Delhi shall be displayed 5.
+Create an API to get customers with all purchase order
